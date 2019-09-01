@@ -88,7 +88,7 @@ var pool = Stratum.createPool({
     "daemons": [
         {   //Main daemon instance
             "host": "127.0.0.1",
-            "port": 9932,
+            "port": 7777,
             "user": "XXXXXXXXXXXXX",
             "password": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
         }
@@ -107,7 +107,7 @@ var pool = Stratum.createPool({
         "host": "127.0.0.1",
 
         /* Port configured for daemon (this is the actual peer port not RPC port) */
-        "port": 19333,
+        "port": 17777,
 
         /* If your coin daemon is new enough (i.e. not a shitcoin) then it will support a p2p
            feature that prevents the daemon from spamming our peer node with unnecessary
